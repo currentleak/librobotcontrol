@@ -61,8 +61,8 @@ int main()
 	rc_make_pid_file();
 
 
-	printf("\nPress and release pause button to turn green LED on and off\n");
-	printf("hold pause button down for 2 seconds to exit\n");
+	printf("\nAppuyer et relacher le bouton 'pause' pour allumer les DEL rouge et verte, en alternance\n");
+	printf("maintenir 'pause' pendant 2 secondes pour quitter\n");
 
 	// Keep looping until state changes to EXITING
 	rc_set_state(RUNNING);
