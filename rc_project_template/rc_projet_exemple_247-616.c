@@ -115,7 +115,7 @@ void on_pause_press()
 		rc_usleep(us_wait/samples);
 		if(rc_button_get_state(RC_BTN_PIN_PAUSE)==RC_BTN_STATE_RELEASED) return;
 	}
-	printf("long press detected, shutting down\n");
+	printf("long press detected, shutting down...\n");
 	rc_set_state(EXITING);
 	return;
 }
